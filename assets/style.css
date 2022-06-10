@@ -242,13 +242,58 @@ footer button {
 
 /* FOOTER styles */
 
+footer {
+    background-color: rgba(31, 32, 34, 0.082);
+}
 
+.footerNav ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerNav a{
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+} 
+
+.contactAndNewsletter {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactAndNewsletter h2 {
+    padding-bottom: 15px;
+}
+
+.contactAndNewsletter p {
+    padding: 5px 0;
+}
+
+.newsletterForm input {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    width: 60%;
+}
+
+
+.newsletterForm button {
+    border: #E75605;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline;
+}
 /* copyright styling */
 .copyright {
     background-color: #1F2022;
     text-align: center;
 }
-
 .copyright p {
     color: #fff;
 }
+
+
